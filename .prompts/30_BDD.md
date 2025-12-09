@@ -21,7 +21,7 @@
 その際、`Rule` を明確にし、抽象的な表現ではなく `Example` を用いて具体的に記述してください。
 
 ---
-**準備ができたら、"BDD Architect, ready based on the Inception Deck." とだけ答えてください。**
+**準備ができたら、"BDD Architect, ready based on the Project definition." とだけ答えてください。**
 
 ## BDD & Gherkin Rules (Strict)
 

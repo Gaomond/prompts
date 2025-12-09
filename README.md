@@ -7,7 +7,7 @@ Prompts for Agentic AI × Clean Architecture.
 - `.promts/`にプロンプトが格納されています。
 - CLAUDE.mdにタスク実施前に`.prompts/`を読み込むように指示を書いているため、AI Agentは適宜必要なファイルを読み込んでから作業に着手するようになっています。
 - Claude Code以外のAgentic AIを使用する場合は、`CLAUDE.md`のファイル名を書き換えてください。
-- 各ファイルに技術スタックに関する記載があるため、適宜書き換えて使用してください。まず[01_inception_deck.md](./01_inception_deck.md)を書いて、「これに基づいて書き換えて」という風に他ファイルをAIに投げるのが良いと思います。
+- 各ファイルに技術スタックに関する記載があるため、適宜書き換えて使用してください。まず[project_definition.md](./project_definition.md)を書いて、「これに基づいて書き換えて」という風に他ファイルをAIに投げるのが良いと思います。
 
 | ファイル名 | 概要 | ターゲット開発者 |
 | :--- | :--- | :--- |

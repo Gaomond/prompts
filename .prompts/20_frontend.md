@@ -259,18 +259,7 @@ API通信のボイラープレート（ヘッダー付与、エラーハンド�
 
 ```ts
 // src/domain/AppError.ts
-import { InternalStatusCodes, internalStatuses } from "@/domain/constants";
-
-export class AppError extends Error {
-  constructor(
-    public status: InternalStatusCodes,
-    message?: string,
-    public cause?: Error
-  ) {
-    super(message ?? internalStatuses[status]);
-    this.name = "AppError";
-  }
-}
+// TODO: アプリケーション全体で使用する共通エラークラスを定義
 
 // src/adapter/apiClient.ts
 // fetchをラップし、共通のヘッダー処理とAppErrorへの変換を行う
